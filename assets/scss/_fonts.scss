@@ -1,0 +1,59 @@
+// // ubuntu regular
+@font-face {
+  font-family: "ubuntu regular";
+  src: url("~/assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+// // quattro regular
+// @font-face {
+//     font-family: 'Quattrocento Sans';
+//     src: url('~/assets/fonts/Quattrocento_Sans/QuattrocentoSans-Regular.ttf');
+// }
+
+// @font-face {
+//     font-family: 'Quattrocento Sans Bold';
+//     src: url('~/assets/fonts/Quattrocento_Sans/QuattrocentoSans-Bold.ttf');
+// }
+
+// @font-face {
+//     font-family: 'Monoton';
+//     src: url('~/assets/fonts/Monoton/Monoton-Regular.ttf');
+// }
+
+// @font-face {
+//     font-family: 'Source Sans Regular';
+//     src: url('~/assets/fonts/Source_Sans_3/static/SourceSans3-Regular.ttf');
+// }
+
+// @font-face {
+//     font-family: 'Montserrat';
+//     src: url('~/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+// }
+
+// .source-sans{
+//     font-family: 'Source Sans Regular';
+// }
+
+// .quattro-fonts-regular {
+//     font-family: 'Quattrocento Sans';
+// }
+
+// .quattro-fonts-bold {
+//     font-family: 'Quattrocento Sans Bold';
+// }
+
+// .heading-fonts{
+//     font-family:'Quattrocento Sans';
+// }
+
+// .monoton-fonts-regular{
+//     font-family:"Monoton"
+// }
+
+* {
+  font-family: "ubuntu regular";
+}
+
+p {
+  font-size: 1.25rem;
+}
