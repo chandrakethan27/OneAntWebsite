@@ -11,7 +11,7 @@
               alt=""
             />
           </h2>
-          <p class="py-2">Join Group to get these deals</p>
+          <p class="py-2">Join Group or Create Group</p>
         </v-col>
         <v-col cols="12" lg="6">
           <v-row>
@@ -19,25 +19,42 @@
               <div>
                 <h2 class="py-4 text-lg font-semibold">Group Deals</h2>
               </div>
+              <div class="pb-1 ">
+              
+              </div>
               <v-card class="rounded-lg">
                 <v-list>
-                  <v-list-item>
-                    <h4 class="pa-0 ma-0">Sky Importer</h4>
-                    <v-spacer></v-spacer>
-                    <template v-slot:append>
-                      <v-icon>mdi-account</v-icon>
-                    </template>
-                  </v-list-item>
-                  <v-list-item>
-                    <p class="py-0 my-0 text-body-2">2 members, 1 awating</p>
-                    <template v-slot:append>
-                      <p class="px-2 rounded-lg text-caption bg-grey-lighten-1">
-                        3 PC
-                      </p>
-                    </template>
-                  </v-list-item>
+                  <v-list-item class="custom-list-item">
+                  <ul class="bullet-list">
+                  <li>
+                  Get a link with deal from a
+                  friend.
+                  </li>
+
+                  <li>
+                  Click the deal link to view
+                  details.
+                  </li>
+                  <li>
+                  Select the option to join the
+                  group deal.
+                  </li>
+
+                  <li>
+                  Confirm deal details and
+                  complete the payment.
+                  </li>
+
+                  <li>                 
+                     Once the group is full, your
+                    order will be processed!
+                  </li>
+                  </ul>
+
+                </v-list-item>
+               
                   <v-divider></v-divider>
-                  <v-card-subtitle
+                  <!-- <v-card-subtitle
                     ><span class="text-black text-h6 font-weight-bold">
                       $30
                     </span>
@@ -46,21 +63,8 @@
                       class="text-overline text-green-darken-4 font-weight-bold"
                     >
                       70% OFF</span
-                    ></v-card-subtitle
-                  >
-                  <v-list-item>
-                    <v-container class="bg-grey-lighten-4 text-yellow-darken-4">
-                      <v-row>
-                        <v-col>
-                          <v-icon>mdi-gift</v-icon> Deal expiring in:
-
-                          <v-icon>mdi-clock</v-icon>
-
-                          09:56
-                        </v-col>
-                      </v-row>
-                    </v-container>
-                  </v-list-item>
+                    ></v-card-subtitle>
+                   -->
                 </v-list>
                 <v-container>
                   <v-row justify="center" class="mb-2">
@@ -68,35 +72,53 @@
                       ><v-icon class="text-blue-darken-4"
                         >mdi-account-plus</v-icon
                       >
-                      <span class="ma-2">Request to join</span></v-btn
+                      <span class="ma-2">JOIN A GROUP</span></v-btn
                     >
                   </v-row>
                 </v-container>
               </v-card>
             </v-col>
-            <v-col>
+            <v-col class=" ">
               <div>
                 <h2 class="py-4 text-lg font-semibold">Your Groups</h2>
               </div>
+              <div class="pb-1 ">
+              
+            </div>
+     
               <v-card class="rounded-lg">
                 <v-list>
-                  <v-list-item>
-                    <h4 class="pa-0 ma-0">Sky Importer</h4>
-                    <v-spacer></v-spacer>
-                    <template v-slot:append>
-                      <v-icon>mdi-account</v-icon>
-                    </template>
-                  </v-list-item>
-                  <v-list-item>
-                    <p class="py-0 my-0 text-body-2">2 members, 1 awating</p>
-                    <template v-slot:append>
-                      <p class="px-2 rounded-lg text-caption bg-grey-lighten-1">
-                        3 PC
-                      </p>
-                    </template>
-                  </v-list-item>
-                  <v-divider></v-divider>
-                  <v-card-subtitle
+                  <v-list-item class="custom-list-item">
+                  <ul class="bullet-list">
+                  <li>
+                    Get a link with deal from a
+                    friend.
+                  </li>
+
+                  <li>
+                    Click the deal link to view
+                    details.
+                  </li>
+                  <li>
+                    Select the option to join the
+                    group deal.
+                  </li>
+
+                  <li>
+                    Confirm deal details and
+                    complete the payment.
+                  </li>
+
+                  <li>                 
+                    Once the group is full, your
+                    order will be processed!
+                  </li>
+                  </ul>
+
+                </v-list-item>
+                  
+
+                  <!-- <v-card-subtitle
                     ><span class="text-black text-h6 font-weight-bold">
                       $30
                     </span>
@@ -106,28 +128,17 @@
                     >
                       70% OFF</span
                     ></v-card-subtitle
-                  >
-                  <v-list-item>
-                    <v-container class="bg-grey-lighten-4 text-yellow-darken-4">
-                      <v-row>
-                        <v-col>
-                          <v-icon>mdi-gift</v-icon> Deal expiring in:
-
-                          <v-icon>mdi-clock</v-icon>
-
-                          09:56
-                        </v-col>
-                      </v-row>
-                    </v-container>
-                  </v-list-item>
+                  > -->
+ 
                 </v-list>
+
                 <v-container>
                   <v-row justify="center" class="mb-2">
                     <v-btn class="text-blue-darken-4" elevation="5" to="/signup"
                       ><v-icon class="text-blue-darken-4"
                         >mdi-account-plus</v-icon
                       >
-                      <span class="ma-2">Buy with Group</span></v-btn
+                      <span class="ma-2">CREATE GROUP</span></v-btn
                     >
                   </v-row>
                 </v-container>
@@ -137,18 +148,31 @@
         </v-col>
       </v-row>
     </v-container>
-    <div class="flex items-center justify-center p-4">
+    <!-- <div class="flex items-center justify-center p-4">
       <button
         class="px-8 bg-red-500 !font-inter font-semibold text-white rounded-md py-2"
       >
         Explore Deals
       </button>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script setup lang="ts"></script>
 
 <style scoped>
+.bullet-list {
+  list-style-type:disc !important;
+  padding-left: 1rem !important;
+}
+
+.bullet-list li {
+  font-weight: thin;
+  display: list-item !important;
+  margin-bottom: 0.5rem;
+}
+
+/* Override Vuetify's default padding */
+
 @import "~/assets/scss/global.scss";
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div>
     <v-container class="intra-section-space">
-      <!-- <v-row justify="center">
+      <v-row justify="center">
         <h2 class="my-5 text-h4 text-md-h4 font-weight-bold">
-          What is OneAnt?
+          OneAnt Benefits
         </h2>
       </v-row>
       <v-row justify="center">
@@ -21,7 +21,7 @@
       </v-row>
       <v-row justify="center" class="my-10">
         <v-btn class="bg-red" to="sellers"> Sellers start here </v-btn>
-      </v-row> -->
+      </v-row>
       <v-container class="mx-auto max-w-7xl">
         <v-row class="" justify="center">
           <v-col
@@ -31,7 +31,7 @@
             v-for="(item, index) in items"
             :key="index"
           >
-            <div class="flex flex-col items-center gap-1">
+            <div class="flex flex-col items-center gap-2">
               <img class="my-5 image" :src="images_path(item['icon_link'])" />
               <h3 class="max-w-sm text-xl font-semibold text-center">
                 {{ item["title"] }}
@@ -40,34 +40,21 @@
           </v-col>
         </v-row>
 
- <!-- <v-row class="md:py-4 ">
-  <v-col
-    v-for="(benefit, index) in benefits.slice(0, 3)"
-    :key="index"
-    cols="12"      
-    md="4"           
-  >
-    <p class="text-center text-body-2 text-md-body-1">
-      <v-icon class="size-4 text-green-darken-2">mdi-check</v-icon>
-      <span class="ml-1 text-lg font-semibold text-center">{{ benefit }}</span>
-    </p>
-  </v-col>
-</v-row> -->
-
-<!-- Second Row (2 items) -->
-<!-- <v-row class=" ">
-  <v-col
-    v-for="(benefit, index) in benefits.slice(3, 5)"
-    :key="index + 3"
-    cols="12"       
-    md="6"       
-  >
-    <p class="text-center text-body-2 text-md-body-1">
-      <v-icon class="size-4 text-green-darken-2">mdi-check</v-icon>
-      <span class="ml-1 text-lg font-semibold text-center">{{ benefit }}</span>
-    </p>
-  </v-col>
-</v-row> -->
+        <v-row class="py-10 my-2 my-md-5">
+          <v-col
+            v-for="(benefit, index) in benefits"
+            :key="index"
+            cols="6"
+            md="3"
+          >
+            <p class="text-center text-body-2 text-md-body-1">
+              <v-icon class="size-4 text-green-darken-2">mdi-check</v-icon
+              ><span class="ml-1 text-lg font-semibold text-center">{{
+                benefit
+              }}</span>
+            </p>
+          </v-col>
+        </v-row>
       </v-container>
     </v-container>
   </div>
@@ -77,36 +64,23 @@
 const images_path = (name: string) => `/images/icons/${name}`;
 const items = ref([
   {
-    icon_link: "clock.png",
-    title: "No Impulse Buys",
+    icon_link: "TrustWorthyIcon.svg",
+    title: "Trustworthy Recommendations",
   },
   {
-    icon_link: "fiance.png",
-    title: "No Hidden Fees",
+    icon_link: "Enhancedicon.svg",
+    title: "Enhanced Product Discovery",
   },
   {
-    icon_link: "refund.png",
-    title: "Refund Guarantee",
-  },
-  {
-    icon_link: "internet.png",
-    title:   "Online Redemption",
-  },
-  {
-    icon_link: "cancellation.png",
-    title: "No Vouchers Needed",
+    icon_link: "SavingsIcon.svg",
+    title: "Definite Savings",
   },
 ]);
 const benefits = ref([
-  // "Definite Savings",
-  // "Product Trials",
-  // "Peer Recommendations",
-  // "Sustainable Shopping",
-  "No Impulse Buys",
-  "No Hidden Fees",
-  "Refund Guarantee",
-  "Online Redemption",
-  "No Vouchers Needed"
+  "Definite Savings",
+  "Product Trials",
+  " Peer Recommendations",
+  "Sustainable Shopping",
 ]);
 </script>
 
