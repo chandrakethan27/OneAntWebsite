@@ -7,7 +7,7 @@
         </h1>
         <p class="my-5 text-center text-grey">
           Get the answers of all your questions below. If you still have doubts
-          or questions, please reach out to help@aneant.com.
+          or questions, please reach out to customersuccess@oneant.ca.
         </p>
       </v-container>
       <v-container class="expansion-container">
