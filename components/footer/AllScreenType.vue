@@ -34,7 +34,7 @@
 const links = ref([
   { title: "Terms Of Use", link: "/terms-conditions" },
   { title: "Privacy Policy", link: "/privacy-policy" },
-  { title: "Services", link: "/services" },
+  { title: "Product", link: "/services" },
   { title: "Sellers", link: "/sellers" },
 ]);
 </script>

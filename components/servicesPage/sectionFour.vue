@@ -9,10 +9,10 @@
       </div>
       <v-container>
         <v-row justify="center">
-          <v-col cols="12" md="3" align-self="center">
+          <v-col cols="12" md="4" align-self="center">
             <v-row justify="center" justify-md="end" class="my-5">
               <p class="text-center text-red">
-                <v-icon>mdi-email</v-icon> info@oneant.ca
+                <v-icon>mdi-email</v-icon> customersuccess@oneant.ca
               </p>
             </v-row>
           </v-col>

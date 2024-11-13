@@ -54,30 +54,27 @@
 
 <script setup lang="ts">
 const links = ref([
-    {
-        link:"/",
-        title:"home"
-    },
-  {
-    link: "sellers",
-    title: "sellers",
-  },
-  {
-    link: "services",
-    title: "services",
-  },
-  {
-    link: "about-us",
-    title: "about us",
-  },
-  {
-    link: "frequently-asked-questions",
-    title: "FAQs",
-  },
-  {
-    link: "contact-us",
-    title: "contact us",
-  },
+{
+  link: "about-us",
+  title: "ABOUT US",
+},
+{
+  link: "services",
+  title: "PRODUCT",
+},
+{
+  link: "sellers",
+  title: "SELLERS",
+},
+
+{
+  link: "frequently-asked-questions",
+  title: "FAQs",
+},
+{
+  link: "contact-us",
+  title: "CONTACT ",
+},
 ]);
 
 const drawer = ref(false);

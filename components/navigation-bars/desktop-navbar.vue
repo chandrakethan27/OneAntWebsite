@@ -13,7 +13,7 @@
       <NuxtLink
         to="/"
         class="mr-5 ml-20 text-decoration-none text-capitalize text-black navbar-fonts text-body-1 font-weight-bold"
-        >Home</NuxtLink
+        >HOME</NuxtLink
       >
 
       <NuxtLink
@@ -38,27 +38,29 @@
 const route = useRoute();
 
 const links = ref([
-  {
-    link: "sellers",
-    title: "Sellers",
-  },
-  {
-    link: "services",
-    title: "services",
-  },
-  {
-    link: "about-us",
-    title: "about us",
-  },
-  {
-    link: "frequently-asked-questions",
-    title: "FAQs",
-  },
-  {
-    link: "contact-us",
-    title: "contact us",
-  },
+{
+  link: "about-us",
+  title: "ABOUT US",
+},
+{
+  link: "services",
+  title: "PRODUCT",
+},
+{
+  link: "sellers",
+  title: "SELLERS",
+},
+
+{
+  link: "frequently-asked-questions",
+  title: "FAQs",
+},
+{
+  link: "contact-us",
+  title: "CONTACT ",
+},
 ]);
+
 </script>
 
 <style scoped>
