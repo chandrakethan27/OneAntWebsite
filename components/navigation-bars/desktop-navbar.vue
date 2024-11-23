@@ -50,7 +50,10 @@ const links = ref([
   link: "sellers",
   title: "SELLERS",
 },
-
+{
+  link: "commitment",
+  title: "COMMITMENT ",
+},
 {
   link: "frequently-asked-questions",
   title: "FAQs",
@@ -59,6 +62,8 @@ const links = ref([
   link: "contact-us",
   title: "CONTACT ",
 },
+
+
 ]);
 
 </script>

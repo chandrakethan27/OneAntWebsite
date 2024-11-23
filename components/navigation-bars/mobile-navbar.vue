@@ -22,6 +22,7 @@
         >
       </div>
       <LogoAllScreenType/>
+      
       <v-spacer></v-spacer>
       <CtaMobileNavbar/>
       <v-spacer></v-spacer>
