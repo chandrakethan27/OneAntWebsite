@@ -1,47 +1,35 @@
 <template>
-  <div class="py-10">
+  <div class="">
     <div class="min-h-[100vh] bg">
-      <div>
-        <div class="mx-auto max-w-7xl">
-          <div class="text-on-image-container">
-            <v-typography
-            variant="h1"
-            class="text-white  text-6xl font-weight-bold"
-          >
-            Serve <span class="text-red darken-2">More</span> Customers,
-          </v-typography>
-          <br />
-          <v-typography
-            variant="h1"
-            class="mt-4 text-white relative top-2 text-6xl font-weight-bold"
-          >
-            Pay <span class="text-red darken-2">Less</span> to Get Them,
-          </v-typography>
-          <br />
-          <v-typography
-            variant="h1"
-            class="mt-4 text-white relative top-4 text-6xl font-weight-bold"
-          >
-            Grow <span class="text-red darken-2">Infinitely.</span>
-          </v-typography>
-          <v-typography>
-          <p class="my-5 text-white font-weight-medium text-h6 text-lg-h5">
-            22 years of experience crafting customer-focused digital marketing
-            <br v-if="$viewport.isGreaterThan('mobileWide')" />
-            strategies that empower small businesses to achieve sustainable
-            growth
-          </p>
-        </v-typography>
-        <v-btn
-        :to="'/contact-us'"
-        class="px-4 py-2 rounded-lg red bg-red darken-2"
-        elevation="2" 
-      >
-        Find out how
-      </v-btn>
-          </div>
-        </div>
-      </div>
+      <div class="video-container">
+    <video controls autoplay class="background-video" >
+      <source src="../../public/videos/vid.mp4" type="video/mp4"  />
+      Your browser does not support the video tag.
+    </video>
+    <v-container class="main-container" fluid>
+      <v-row class="h-full">
+        <v-col class="flex">
+          <!-- <v-container class="text-on-image-container mb-32 my-auto">
+            <h1
+              class="text-white flex items-end gap-4 !font-inter pt-15 text-h3 text-md-h2 text-lg-h1 font-weight-bold"
+            >
+              Your
+              <span class="flex flex-col text-3xl font-black text-red-600"
+                ><span class="!font-inter">Friends,</span>
+                <span class="!font-inter">Deals,</span>
+                <span class="!font-inter">Savings</span>
+              </span>
+            </h1>
+            <p class="my-5 text-white !font-inter font-weight-medium">
+              Experience the power of buying with friends, your wallet will
+              thank you.
+            </p>
+            <CtaJoinOneAntRed />
+          </v-container> -->
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
     </div>
   </div>
 </template>
@@ -49,20 +37,30 @@
 <script setup lang="ts"></script>
 
 <style scoped>
-.bg {
-  background-image: linear-gradient(
-      rgba(130, 130, 130, 0.1),
-      rgba(1, 1, 1, 0.9)
-    ),
-    url("/images/servicesPage/digital-marketing-office.jpg");
-  background-position: 50% 40%;
-  background-size: cover;
-  backdrop-filter: brightness(0.1);
-  display: grid;
-  align-items: center;
-}
 @import "~/assets/scss/global.scss";
+.video-container {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
 
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-container {
+  height: 100%;
+  z-index: 1; /* Ensures text is above the video */
+}
+
+.text-on-image-container {
+  filter: brightness(1);
+}
 /*
 .main-container {
   background-image: linear-gradient(
@@ -94,5 +92,10 @@
 }
 .bg-red-darken-2 {
   background-color: #c62828; /* Adjust this color as needed */
+}
+@media (max-width: 768px) {
+  .video-container {
+    height: 30vh; /* Reduce height for smaller screens */
+  }
 }
 </style>
