@@ -12,7 +12,7 @@
       </template>
 
       <template v-slot:default="{ isActive }">
-        <v-card title="Join One Ant " class="pa-5">
+        <v-card title="Join OneAnt " class="pa-5">
           <form>
             <p class="my-5 text-body-2">
               🐜 Calling all ant-venturers!! Dive into the ant-icipated world of

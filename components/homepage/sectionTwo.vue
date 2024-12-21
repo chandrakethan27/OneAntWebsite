@@ -12,7 +12,7 @@
       <v-row justify="center" class="pt-5 mt-5 mt-md-10 pt-md-10">
         <v-col cols="12" sm="4" class="position-relative">
           <v-card flat class="grid1 flex text-center">
-            <v-img class="image" src="../../public/images/icons/login.svg"></v-img>
+            <v-img class="image" src="../../public/images/icons/login.svg" alt="User signing up or logging in to OneAnt platform"></v-img>
             <v-card-title class="text-red font-weight-bold">Step 1: Sign Up or Log In</v-card-title>
             <v-card-text>Access exclusive local deals</v-card-text>
           </v-card>
@@ -20,7 +20,9 @@
 
         <v-col cols="12" sm="4" class="position-relative">
           <v-card flat class="grid1 flex text-center">
-            <v-img class="image" src="../../public/images/icons/deals.svg"></v-img>
+            <v-img class="image" src="../../public/images/icons/deals.svg"
+            alt="Browsing exclusive local deals on OneAnt"
+            ></v-img>
             <v-card-title class="text-red font-weight-bold">Step 2: Browse Deals</v-card-title>
             <v-card-text>Explore offers to save more</v-card-text>
           </v-card>
@@ -28,7 +30,7 @@
 
         <v-col cols="12" sm="4" class="position-relative">
           <v-card flat class="grid1 flex text-center">
-            <v-img class="image" src="../../public/images/icons/invite.png"></v-img>
+            <v-img class="image" src="../../public/images/icons/invite.png" alt="nviting friends to join and save together on OneAn"></v-img>
             <v-card-title class="text-red font-weight-bold">Step 3: Invite Friends</v-card-title>
             <v-card-text>Bring friends to join the savings</v-card-text>
           </v-card>
@@ -49,7 +51,7 @@
       <v-row justify="center" class="d-sm-none">
         <v-col cols="12" sm="4" class="position-relative">
           <v-card flat class="grid1 flex text-center">
-            <v-img class="image" src="../../public/images/icons/purchase.svg"></v-img>
+            <v-img class="image" src="../../public/images/icons/purchase.svg" alt="Creating or joining groups for better deals on OneAnt"></v-img>
             <v-card-title class="text-red font-weight-bold">Step 5: Complete Purchase</v-card-title>
             <v-card-text>Claim your deal with ease</v-card-text>
           </v-card>
@@ -68,7 +70,7 @@
 
         <v-col cols="12" sm="4" class="position-relative ma-md-3">
           <v-card flat class="grid1 flex text-center">
-            <v-img class="image" src="../../public/images/icons/groups.svg"></v-img>
+            <v-img class="image" src="../../public/images/icons/groups.svg" alt="Completing purchase to claim deal on OneAn"></v-img>
             <v-card-title class="text-red font-weight-bold">Step 4: Create or Join Groups</v-card-title>
             <v-card-text>Team up for better deals</v-card-text>
           </v-card>

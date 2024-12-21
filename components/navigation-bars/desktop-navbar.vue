@@ -43,7 +43,7 @@ const links = ref([
   title: "ABOUT US",
 },
 {
-  link: "services",
+  link: "product",
   title: "PRODUCT",
 },
 {
@@ -62,8 +62,6 @@ const links = ref([
   link: "contact-us",
   title: "CONTACT ",
 },
-
-
 ]);
 
 </script>

@@ -3,7 +3,7 @@
     <div class="min-h-[100vh] bg">
       <div class="video-container">
     <video controls autoplay class="background-video" >
-      <source src="../../public/videos/vid.mp4" type="video/mp4"  />
+      <source src="../../public/videos/vidd.mp4" type="video/mp4"  />
       Your browser does not support the video tag.
     </video>
     <v-container class="main-container" fluid>
@@ -95,7 +95,7 @@
 }
 @media (max-width: 768px) {
   .video-container {
-    height: 30vh; /* Reduce height for smaller screens */
+    height: 40vh; /* Reduce height for smaller screens */
   }
 }
 </style>

@@ -12,7 +12,7 @@
             <div class="butterfly">
               <img
                 src="/public/images/sellersPage/butterfly.png"
-                alt="butterfly.png"
+                alt="Group of friends collaborating to unlock local deals on OneAnt"
               />
             </div>
           </v-col>
@@ -51,8 +51,9 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-              </button> </v-row
-          ></v-col>
+              </button> 
+            </v-row>
+          </v-col>
           <v-col cols="12" md="3" align-self="end">
             <div
               class="purple-ring"
@@ -60,7 +61,7 @@
             >
               <img
                 src="/public/images/sellersPage/purple-ring.png"
-                alt="purple-ring"
+                alt="Purple ring icon representing group purchasing power"
               />
             </div>
           </v-col>
@@ -74,13 +75,13 @@
               <img
                 class="screenshot-numbers"
                 src="/public/images/sellersPage/screenshot-numbers.png"
-                alt="screenshot with numbers"
+                alt="OneAnt platform interface displaying user engagement metrics"
               />
             </v-col>
             <v-col cols="12" md="4" align-self="start">
               <img
                 src="/public/images/sellersPage/screenshot-graph.png"
-                alt="screenshot with graph"
+                alt="Graph illustrating business growth through OneAnt's group deals"
                 class="screenshot-graphs"
               />
             </v-col>
@@ -88,7 +89,7 @@
               <div class="purple-money-amount">
                 <img
                   src="/public/images/sellersPage/purple-money-amount.png"
-                  alt="purple-money-amount"
+                  alt="Purple money icon symbolizing increased revenue with OneAnt"
                 />
               </div>
             </v-col>
@@ -100,7 +101,7 @@
               <div class="screenshot-graph-mobile">
                 <img
                   src="/public/images/sellersPage/screenshot-graph.png"
-                  alt="screenshot graph "
+                  alt="Graph illustrating business growth through OneAnt's group deals"
                 />
               </div>
             </v-col>
@@ -110,6 +111,7 @@
     </v-container>
   </div>
 </template>
+
 
 <script setup lang="ts"></script>
 

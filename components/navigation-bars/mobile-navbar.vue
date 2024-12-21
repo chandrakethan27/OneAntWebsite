@@ -60,7 +60,7 @@ const links = ref([
   title: "ABOUT US",
 },
 {
-  link: "services",
+  link: "product",
   title: "PRODUCT",
 },
 {

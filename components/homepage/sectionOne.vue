@@ -1,7 +1,7 @@
 <template>
   <div class="video-container">
-    <video autoplay class="background-video" >
-      <source src="../../public/videos/vid.mp4" type="video/mp4"  />
+    <video controls autoplay class="background-video" >
+      <source src="../../public/videos/vidd.mp4" type="video/mp4"  />
       Your browser does not support the video tag.
     </video>
     <v-container class="main-container" fluid>
@@ -36,7 +36,7 @@
 
 .video-container {
   position: relative;
-  height: 70vh;
+  height: 100vh;
   overflow: hidden;
 }
 
